@@ -11,8 +11,8 @@ using Microsoft.AspNetCore.Authorization;
 namespace DatingApp.API.Controllers
 {
     [Authorize]
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class ValuesController : ControllerBase
     {
         private readonly DataContext _context;
